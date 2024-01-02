@@ -34,33 +34,6 @@ body {
   
   
 
-  /* Navbar styles */
-  /* .navbar-custom {
-    background-color: #333;
-  }
-
-  .navbar-custom .navbar-nav .nav-link {
-    color: white;
-  }
-
-  .navbar-custom .navbar-nav .nav-link:hover {
-    color: white;
-  }
-
-  .navbar-custom .dropdown-menu {
-    background-color: #f9f9f9;
-  }
-
-  .navbar-custom .dropdown-menu a {
-    color: black;
-  }
-
-  .navbar-custom .dropdown-menu a:hover {
-    background-color: #ddd;
-    color: black;
-  }
-
-   */
   /* Welcome message styles */
   .welnote {
     text-align: center;
@@ -111,6 +84,15 @@ body {
     margin-top: 20px;
   }
 
+/* RESET PASSWORD PAGE: */
+.email-form {
+  max-width: 400px;
+  margin: 5% auto;
+  padding: 30px;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  margin-bottom: 13%;
+}
 
 /* Styles for the footer */
 .footer {
@@ -118,7 +100,7 @@ body {
     color: white;
     padding: 15px 0;
     text-align: center;
-margin-top: 3%;
+margin-top: 2%;
 }
 
   .footer-content {
