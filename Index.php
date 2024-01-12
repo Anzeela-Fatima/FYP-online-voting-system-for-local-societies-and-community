@@ -16,7 +16,7 @@
 </head>
 <body>
   <!-- Bootstrap Navbar with dropdown -->
-<?php
+  <?php
 include "navbar.php";
 ?>
 
@@ -27,6 +27,43 @@ include "navbar.php";
     <img src="img/banner/public-square-with-empty-road-floor-downtown.jpg" class="slides">
   </div>
 
+
+  <!-- <nav class="navbar navbar-expand-lg navbar-dark bg-dark navbar-custom">
+    <div class="container">
+      <a class="navbar-brand" href="#">Your Logo</a>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNavDropdown">
+        <ul class="navbar-nav ml-auto">
+          <li class="nav-item active">
+            <a class="nav-link" href="#">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Candidate Profile</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Complain</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Current Status</a>
+          </li>
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+              My Profile
+            </a>
+            <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+              <a class="dropdown-item" href="#">Action</a>-->
+              <!-- Add other user-related options as needed -->
+              <!-- <a class="dropdown-item" href="#">Action</a>
+              
+            </div>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+   -->
 
 
   <!-- Welcome message -->
@@ -77,7 +114,8 @@ include "navbar.php";
       </div>
       <div class="item">
         <div class="portfolio-card">
-          <img src="img/candidate_images/handsome-corporate-man-real-estate-agent-assistant-smiling-hold-hands-together-how-may-i-help-you-smiling-friendly-polite-assist-customer-white-background.jpg">
+          <img
+            src="img/candidate_images/handsome-corporate-man-real-estate-agent-assistant-smiling-hold-hands-together-how-may-i-help-you-smiling-friendly-polite-assist-customer-white-background.jpg">
           <!-- Card content -->
           <h3>Project Title</h3>
           <p class="manifesto">Description of the project goes here.</p>
@@ -90,7 +128,8 @@ include "navbar.php";
       </div>
       <div class="item">
         <div class="portfolio-card">
-          <img src="img/candidate_images/smiling-young-male-professional-standing-with-arms-crossed-while-making-eye-contact-against-isolated-background.jpg"
+          <img
+            src="img/candidate_images/smiling-young-male-professional-standing-with-arms-crossed-while-making-eye-contact-against-isolated-background.jpg"
             alt="Project Image">
           <!-- Card content -->
           <h3>Project Title</h3>
@@ -140,15 +179,16 @@ include "footer.php";
 ?>
   <!-- Bootstrap JS -->
   
- <!-- JavaScript code for slide show: -->
- <!-- Owl Carousel JS jquery , Candidate Profile -->
- <script src="js/script.js"></script>
-
- <!-- jQuery and Bootstrap JS--  -->
+  <script>
+//     // JavaScript code for slide show:
+//     // <!-- Owl Carousel JS jquery , Candidate Profile -->
+//   //jQuery and Bootstrap JS-- 
+</script>
 <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
 <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
   <!-- Owl Carousel JS -->
   <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"></script>
+<script src="js/script.js"></script>
 
 </body>
 </html>
