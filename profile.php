@@ -65,9 +65,19 @@ include "navbar.php";
             <input type="text" id="houseno" class="form-control" value="<?php if (isset($_SESSION['houseno'])) echo $_SESSION['houseno']; ?>">
           </div>
         </div>
-        <div class="col-md-6">
+        <!-- <div class="col-md-6">
           <img src="img/candidate_images/handsome-corporate-man-real-estate-agent-assistant-smiling-hold-hands-together-how-may-i-help-you-smiling-friendly-polite-assist-customer-white-background.jpg" alt="Profile Picture" class="img-fluid">
-        </div>
+        </div> -->
+        <div class="col-md-6">
+   <?php
+   if (isset($_SESSION['image'])) {
+       $imagePath = $_SESSION['image'];
+       echo '<img src="' . $imagePath . '" alt="Profile Picture" class="img-fluid">';
+   } else {
+       echo '<p>No image available</p>';
+   }
+   ?>
+</div>
       </div>
       <button class="btn btn-primary edit-button" type="submit" >Update Profile</button>
     </div>
