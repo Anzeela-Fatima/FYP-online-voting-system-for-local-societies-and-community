@@ -30,7 +30,9 @@
 
     <nav class="sidebar vertical-scroll dark_sidebar  ps-container ps-theme-default ps-active-y">
         <div class="logo d-flex justify-content-between">
-            <a href="index.html"><h2>LOGO</h2></a>
+            <a href="index.html">
+                <h2>LOGO</h2>
+            </a>
             <div class="sidebar_close_icon d-lg-none">
                 <i class="ti-close"></i>
             </div>
@@ -275,150 +277,60 @@
                                                 <tr>
                                                     <th scope="col">S No.</th>
                                                     <th scope="col">Name</th>
-                                                    <th scope="col">Falt No.</th>
-                                                    <th scope="col">Any Complains</th>
+                                                    <th scope="col">Block</th>
                                                     <th scope="col">Floor No.</th>
+                                                    <th scope="col">House No.</th>
                                                     <!-- <th scope="col">Price</th> -->
+                                                    <th scope="col">Any Complains</th>
                                                     <th scope="col">Status</th>
                                                 </tr>
                                             </thead>
-                                            <tbody>
-                                                <tr>
-                                                    <th scope="row"> <a href="#" class="question_content">01</a></th>
-                                                    <td>User Name</td>
-                                                    <td>101</td>
-                                                    <td>Yes</td>
-                                                    <td>1</td>
-                                                    <!-- <td>$25.00</td> -->
-                                                    <td><a href="#" class="status_btn">Active</a></td>
-                                                </tr>
-                                                <tr>
-                                                    <th scope="row"> <a href="#" class="question_content">02</a></th>
-                                                    <td>User Name</td>
-                                                    <td>102</td>
-                                                    <td>No</td>
-                                                    <td>1</td>
-                                                    <!-- <td>$25.00</td> -->
-                                                    <td><a href="#" class="status_btn">Active</a></td>
-                                                </tr>
-                                                <tr>
-                                                    <th scope="row"> <a href="#" class="question_content">03</a></th>
-                                                    <td>User Name</td>
-                                                    <td>103</td>
-                                                    <td>Yes</td>
-                                                    <td>1</td>
-                                                    <!-- <td>$25.00</td> -->
-                                                    <td><a href="#" class="status_btn">Active</a></td>
-                                                </tr>
-                                                <tr>
-                                                    <th scope="row"> <a href="#" class="question_content">04</a></th>
-                                                    <td>User Name</td>
-                                                    <td>104</td>
-                                                    <td>No</td>
-                                                    <td>1</td>
-                                                    <!-- <td>$25.00</td> -->
-                                                    <td><a href="#" class="status_btn">Active</a></td>
-                                                </tr>
-                                                <tr>
-                                                    <th scope="row"> <a href="#" class="question_content">05</a></th>
-                                                    <td>User Name</td>
-                                                    <td>105</td>
-                                                    <td>Yes</td>
-                                                    <td>1</td>
-                                                    <!-- <td>$25.00</td> -->
-                                                    <td><a href="#" class="status_btn">Active</a></td>
-                                                </tr>
-                                                <tr>
-                                                    <th scope="row"> <a href="#" class="question_content">06</a></th>
-                                                    <td>User Name</td>
-                                                    <td>106</td>
-                                                    <td>Yes</td>
-                                                    <td>1</td>
-                                                    <!-- <td>$25.00</td> -->
-                                                    <td><a href="#" class="status_btn">Active</a></td>
-                                                </tr>
-                                                <tr>
-                                                    <th scope="row"> <a href="#" class="question_content">07</a></th>
-                                                    <td>User Name</td>
-                                                    <td>107</td>
-                                                    <td>No</td>
-                                                    <td>1</td>
-                                                    <!-- <td>$25.00</td> -->
-                                                    <td><a href="#" class="status_btn">Active</a></td>
-                                                </tr>
-                                                <tr>
-                                                    <th scope="row"> <a href="#" class="question_content">08</a></th>
-                                                    <td>User Name</td>
-                                                    <td>108</td>
-                                                    <td>Yes</td>
-                                                    <td>1</td>
-                                                    <!-- <td>$25.00</td> -->
-                                                    <td><a href="#" class="status_btn">Active</a></td>
-                                                </tr>
-                                                <tr>
-                                                    <th scope="row"> <a href="#" class="question_content">09</a></th>
-                                                    <td>User Name</td>
-                                                    <td>109</td>
-                                                    <td>Yes</td>
-                                                    <td>1</td>
-                                                    <!-- <td>$25.00</td> -->
-                                                    <td><a href="#" class="status_btn">Active</a></td>
-                                                </tr>
-                                                <tr>
-                                                    <th scope="row"> <a href="#" class="question_content">10</a></th>
-                                                    <td>User Name</td>
-                                                    <td>110</td>
-                                                    <td>No</td>
-                                                    <td>1</td>
-                                                    <!-- <td>$25.00</td> -->
-                                                    <td><a href="#" class="status_btn">Active</a></td>
-                                                </tr>
-                                                <tr>
-                                                    <th scope="row"> <a href="#" class="question_content">11</a></th>
-                                                    <td>User Name</td>
-                                                    <td>201</td>
-                                                    <td>Yes</td>
-                                                    <td>2</td>
-                                                    <!-- <td>$25.00</td> -->
-                                                    <td><a href="#" class="status_btn">Active</a></td>
-                                                </tr>
-                                                <tr>
-                                                    <th scope="row"> <a href="#" class="question_content">12</a></th>
-                                                    <td>User Name</td>
-                                                    <td>202</td>
-                                                    <td>Yes</td>
-                                                    <td>2</td>
-                                                    <!-- <td>$25.00</td> -->
-                                                    <td><a href="#" class="status_btn">Active</a></td>
-                                                </tr>
-                                                <tr>
-                                                    <th scope="row"> <a href="#" class="question_content">13</a></th>
-                                                    <td>User Name</td>
-                                                    <td>203</td>
-                                                    <td>No</td>
-                                                    <td>2</td>
-                                                    <!-- <td>$25.00</td> -->
-                                                    <td><a href="#" class="status_btn">Active</a></td>
-                                                </tr>
-                                                <tr>
-                                                    <th scope="row"> <a href="#" class="question_content">14</a></th>
-                                                    <td>User Name</td>
-                                                    <td>204</td>
-                                                    <td>Yes</td>
-                                                    <td>2</td>
-                                                    <!-- <td>$25.00</td> -->
-                                                    <td><a href="#" class="status_btn">Active</a></td>
-                                                </tr>
-                                                <tr>
-                                                    <th scope="row"> <a href="#" class="question_content">15</a></th>
-                                                    <td>User Name</td>
-                                                    <td>205</td>
-                                                    <td>No</td>
-                                                    <td>2</td>
-                                                    <!-- <td>$25.00</td> -->
-                                                    <td><a href="#" class="status_btn">Active</a></td>
-                                                </tr>
+                                            <tbody> 
+                                            <!-- myCode -->
 
+    <?php
+    include("connection.php");
+
+    // Create connection
+    // $dbcon = mysqli_connect($servername, $username, $password, $dbname);
+
+    // Check connection
+    if (!$dbcon) {
+        die("Connection failed: " . mysqli_connect_error());
+    }
+
+    // Fetch user data
+    $sql = "SELECT * FROM users";
+    $result = mysqli_query($dbcon, $sql);
+
+    if ($result->num_rows > 0) {
+        // output data of each row
+        while($row = $result->fetch_assoc()) {
+     
+    // Check if there are any users
+            ?>
+            <tr>
+                <th scope="row"><?= $row["ID"]; ?></th>
+                <td><?= $row["firstname"] . ' ' . $row["lastname"]; ?></td>
+                <td><?= $row["block"]; ?></td>
+                <td><?= $row["floor"]; ?></td>
+                <td><?= $row["houseno"]; ?></td>
+<td><?= $row["status"] == 1 ? 'Active' : 'Inactive'; ?></td>
+            </tr>
+            <?php
+        }
+    } else {
+        ?>
+        <tr>
+            <td colspan="6">No users found</td>
+        </tr>
+        <?php
+    }
+
+    // Close the database connection
+    mysqli_close($dbcon);
+    ?>
+                                                
                                             </tbody>
                                         </table>
                                     </div>
